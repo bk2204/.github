@@ -1,0 +1,38 @@
+= Design and Implementation Considerations
+
+== Shell
+
+Shell scripts will be written to confirm to https://www.debian.org/doc/debian-policy/ch-files.html#s-scripts[Debian's shell policy].
+That means scripts will be written for `/bin/sh` and that binary is expected to support the `local` keyword.
+A suitable `which` binary (one producing output roughly equivalent to the SUSv4 `command -v`) is also required.
+
+== IPv6
+
+IPv6 is supported in all modern operating systems.
+New network-facing services will use IPv6 sockets with IPv4-mapped addresses to simplify implementation and maintenance, unless the language lacks support for that.
+Local customizations that disable IPv6 or make it unusable are not supported.
+A system need not have IPv6 addresses or IPv6 connectivity, but appropriate functionality is required in the libc and kernel such that a binary using IPv6 sockets with IPv4-mapped addresses can function.
+
+== Text
+
+Programs producing text output or requiring text input should use UTF-8 without a byte-order mark (BOM).
+
+All text files in the repository should use LF (Unix-style) line endings and be encoded in UTF-8 without a byte-order mark (BOM).
+If a file requires CRLF line endings to function (e.g., a batch file), it should still use LF endings in the repository and should have an appropriate declaration in the `.gitattributes` file.
+Trailing whitespace should be removed unless it's required for technical reasons and can't be avoided.
+
+Source code should use the standard formatting conventions for the language.
+If the language has a widely available formatter (e.g., `rustfmt`), it should be used to tidy code.
+
+== Documentation
+
+Documentation outside of code should use sentence-per-line style.
+That is, each complete sentence should start on its own line and that line should continue, however long it might be, until the end of the sentence.
+
+Unless there is a technical reason not to, documentation outside of code should use AsciiDoc.
+Programs should include manual pages (preferably built from AsciiDoc).
+
+We generally prefer U.S. English, and where applicable, a general Latin American Spanish and general European French.
+Please consider that your audience may not be a native speaker of the language and write in a simple, direct way.
+Singular they is acceptable and should be used where the person being referred to is unknown or generic or has an unknown gender.
+We try more generally to use inclusive language and avoid making assumptions about the capabilities of groups of people.

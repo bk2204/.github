@@ -1,0 +1,41 @@
+= Contributing
+
+Thanks for your interest in this project.
+We welcome bug reports and feature requests.
+If you think you've found a security vulnerability, please link:SECURITY.adoc[follow the security policy to report it].
+
+We do our best to support as many systems as possible, but by our nature cannot support every system.
+There's link:SUPPORTED.adoc[documentation on which OS environments and versions we support], and when possible, we will accept patches for other systems as well.
+
+Please be aware that there's a link:CODE_OF_CONDUCT.adoc[code of conduct].
+Your adherence to it is obligatory.
+We appreciate your assistance in creating a welcoming and inclusive community for everyone.
+
+== Pull Requests
+
+Thanks for your interest in sending a pull request.
+We prefer pull requests to target the default branch (usually, `dev`).
+We ask that you follow the same rules that you would follow when https://git-scm.com/docs/SubmittingPatches[contributing to Git]:
+* Make separate commits for logically separate changes that pass the test suite at each step.
+  Avoid fixup commits (commits that fix bugs or address problems elsewhere in your pull request).
+* Write a commit message that describes your changes well, explains the problem that you are trying to solve, justifies the way the change solves the problem, and mentions any alternate solutions that were rejected.
+* Sign-off your work.
+  By doing so, you are certifying the statement in the <<dco,Developer's Certificate of Origin>>.
+
+If the LICENSE file contains a copyright statement, please add your name (or the name of the copyright holder, if different) in alphabetical order if it's not already present.
+
+There are some link:DESIGN.adoc[design and implementation considerations] to consider as well.
+They cover source code formatting, text handling, network services, shell standards, and documentation.
+
+If you're not sure about whether your idea will be accepted or if you have questions, please open an issue to discuss the approach first.
+We'd be happy to work with you to discuss and refine things before you spend a lot of time and effort.
+
+[[dco]]
+=== Developer's Certificate of Origin 1.1
+
+By making a contribution to this project, I certify that:
+
+. The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or
+. The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
+. The contribution was provided directly to me by some other person who certified (1), (2) or (3) and I have not modified it.
+. I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
