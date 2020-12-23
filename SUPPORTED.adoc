@@ -33,6 +33,14 @@ For example, in November 2016, the following versions of Ubuntu would be support
 * Ubuntu 16.04 (most recent LTS)
 * Ubuntu 14.04 (previous LTS; only until 2017-04)
 
+== Supported Architectures
+
+All architectures supported by the most recent stable release of Debian GNU/Linux are fully supported, although it may not always be possible for us to troubleshoot problems due to lack of hardware.
+Architectures available only in Debian unstable are partially supported.
+
+Note that combinations of hardware or architecture that are not supported by an operating system are not supported.
+For example, Hackintoshes or external third-party ports to other architectures.
+
 == Supported Software Policy
 
 Generally, the build and runtime stack of fully supported systems is supported.
