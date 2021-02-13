@@ -13,7 +13,6 @@ That means that software following this policy should be able to work on them ea
 The following operating systems are partially supported.
 That means code will be written with portability in mind and patches will generally be accepted to address issues.
 
-* Debian GNU/kFreeBSD
 * FreeBSD
 * NetBSD
 * macOS
