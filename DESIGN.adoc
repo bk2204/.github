@@ -23,6 +23,7 @@ Trailing whitespace should be removed unless it's required for technical reasons
 
 Source code should use the standard formatting conventions for the language.
 If the language has a widely available formatter (e.g., `rustfmt`), it should be used to tidy code.
+If the language does not have a standard formatting convention (e.g., C), four spaces should be used to indent.
 
 == Documentation
 
