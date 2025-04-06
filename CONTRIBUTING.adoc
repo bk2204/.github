@@ -16,6 +16,7 @@ We appreciate your assistance in creating a welcoming and inclusive community fo
 Thanks for your interest in sending a pull request.
 We prefer pull requests to target the default branch (usually, `dev`).
 We ask that you follow the same rules that you would follow when https://git-scm.com/docs/SubmittingPatches[contributing to Git]:
+
 * Make separate commits for logically separate changes that pass the test suite at each step.
   Avoid fixup commits (commits that fix bugs or address problems elsewhere in your pull request).
 * Write a commit message that describes your changes well, explains the problem that you are trying to solve, justifies the way the change solves the problem, and mentions any alternate solutions that were rejected.
