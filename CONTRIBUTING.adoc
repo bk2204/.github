@@ -21,7 +21,7 @@ We ask that you follow the same rules that you would follow when https://git-scm
   Avoid fixup commits (commits that fix bugs or address problems elsewhere in your pull request).
 * Write a commit message that describes your changes well, explains the problem that you are trying to solve, justifies the way the change solves the problem, and mentions any alternate solutions that were rejected.
 * Sign-off your work.
-  By doing so, you are certifying the statement in the <<dco,Developer's Certificate of Origin>>.
+  By doing so, you are certifying the statement in the <<dco,Developer's Certificate of Origin>>, including the interpretation of the <<llm,Use of Large Language Models statement>>.
 
 If the LICENSE file contains a copyright statement, please add your name (or the name of the copyright holder, if different) in alphabetical order if it's not already present.
 
@@ -30,6 +30,12 @@ They cover source code formatting, text handling, network services, shell standa
 
 If you're not sure about whether your idea will be accepted or if you have questions, please open an issue to discuss the approach first.
 We'd be happy to work with you to discuss and refine things before you spend a lot of time and effort.
+
+[[llm]]
+=== Use of Large Language Models
+
+It is the position of this project that output from so-called "`AI`" whose training data contains certain software is considered a derivative thereof and thus any further dealing in the output is subject to the appropriate license.
+Thus, please do not sign off your work if you're using an LLM to contribute unless you have included copyright and license information for all the code used in that LLM.
 
 [[dco]]
 === Developer's Certificate of Origin 1.1
