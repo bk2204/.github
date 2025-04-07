@@ -32,6 +32,7 @@ That is, each complete sentence should start on its own line and that line shoul
 
 Unless there is a technical reason not to, documentation outside of code should use AsciiDoc.
 Programs should include manual pages (preferably built from AsciiDoc).
+If a particular variant of AsciiDoc must be chosen, choose one that works with Asciidoctor.
 
 We generally prefer U.S. English, and where applicable, a general Latin American Spanish and general European French.
 Please consider that your audience may not be a native speaker of the language and write in a simple, direct way.
