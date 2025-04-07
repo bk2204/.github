@@ -26,6 +26,7 @@ If the language has a widely available formatter (e.g., `rustfmt`), it should be
 If the language does not have a standard formatting convention (e.g., C), four spaces should be used to indent.
 
 == Documentation
+:fn-direct-lang: pass:c,q[footnote:[As an example, https://www.canada.ca/en.html[the Canadian government's website] demonstrates well how to write in a simple direct way that is approachable to non-native speakers.]]
 
 Documentation outside of code should use sentence-per-line style.
 That is, each complete sentence should start on its own line and that line should continue, however long it might be, until the end of the sentence.
@@ -35,6 +36,6 @@ Programs should include manual pages (preferably built from AsciiDoc).
 If a particular variant of AsciiDoc must be chosen, choose one that works with Asciidoctor.
 
 We generally prefer U.S. English, and where applicable, a general Latin American Spanish and general European French.
-Please consider that your audience may not be a native speaker of the language and write in a simple, direct way.
+Please consider that your audience may not be a native speaker of the language and write in a simple, direct way.{fn-direct-lang}
 Singular they is acceptable and should be used where the person being referred to is unknown or generic or has an unknown gender.
 We try more generally to use inclusive language and avoid making assumptions about the capabilities of groups of people.
